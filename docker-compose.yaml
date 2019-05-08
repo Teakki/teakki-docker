@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  teakki:
+    container_name: teakki_container
+    image: registry.cn-hangzhou.aliyuncs.com/teakki/teakki:2.7
+    ports:
+      - "9003:9002"
+    volumes:
+      - /root/teakki_data:/data
