@@ -2,6 +2,6 @@
 
 ```shell
 cd PATH-TO-teakki-docker
-mkdir ~/teakki_data
+mkdir /teakki_data
 docker-compose up
 ```

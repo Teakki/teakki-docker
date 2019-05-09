@@ -7,4 +7,4 @@ services:
     ports:
       - "9001:9002"
     volumes:
-      - /root/teakki_data:/data
+      - /teakki_data:/data
