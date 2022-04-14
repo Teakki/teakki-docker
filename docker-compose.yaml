@@ -2,7 +2,7 @@ version: '3'
 services:
   teakki:
     restart: always
-    image: registry.cn-hangzhou.aliyuncs.com/teakki/teakki:3.0-beta
+    image: registry.cn-hangzhou.aliyuncs.com/teakki/teakki:3.0.1
     privileged: true
     container_name: teakki
     ports:
